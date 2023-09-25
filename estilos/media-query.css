@@ -16,6 +16,14 @@
         float: right;
         width: 100vw;
     }
+    div#formulario > h1 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    div#formulario > p {
+        font-size: 1.4em;
+        text-align: justify;
+    }
 }
 @media screen and (min-width: 992px) {
     body {
@@ -25,12 +33,20 @@
         width: 950px;
     }
     section#login > div#imagens {
-        float: left;
+        float: right;
         width: 50vw;
         height: 100%;
     }
     section#formulario {
-        float: right;
+        float: left;
         width: 50vw;
+    }
+    div#formulario > h1 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    div#formulario > p {
+        font-size: 1.5em;
+        text-align: justify;
     }
 }
